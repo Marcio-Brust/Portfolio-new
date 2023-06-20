@@ -1,6 +1,8 @@
-import { Link } from "../Link/Link";
-import Nav from "../Nav/Nav";
+import { ButtonMobile } from "./ButtonMobile/ButtonMobile";
 import { HeaderStyle } from "./Header.style";
+import { Link } from "./Link/Link";
+import { Li } from "./Nav/Li";
+import Nav from "./Nav/Nav";
 
 const Header = () => {
   return (
@@ -9,11 +11,20 @@ const Header = () => {
       <Nav
         children={
           <>
-            <Link href="#home" text="Home" />
-            <Link href="#sobre" text="Sobre" />
+            <Li>
+              <Link href="#home" text="Home" />
+            </Li>
+            <Li>
+              <Link href="#sobre" text="Sobre" />
+            </Li>
             <Link href="#cursos" text="Cursos" />
-            <Link href="#projetos" text="Projetos" />
-            <Link href="#contato" text="Contato" />
+            <Li>
+              <Link href="#projetos" text="Projetos" />
+            </Li>
+            <Li>
+              <Link href="#contato" text="Contato" />
+            </Li>
+            <ButtonMobile text="Menu" onClick={undefined} />
           </>
         }
       />

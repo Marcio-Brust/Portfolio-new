@@ -1,9 +1,13 @@
 import styled from "styled-components";
-import { theme } from "../../Theme";
 
-export const NavStyled = styled.nav`
+export const NavStyle = styled.nav`
   display: flex;
   justify-content: space-between;
   font-size: ${({ theme }) => theme.size.p.l};
   font-family: ${({ theme }) => theme.fontFamily.primary};
-`;       
+  align-items: center;
+`;
+
+export const LiStyled = styled.li`
+  list-style: none;
+`;

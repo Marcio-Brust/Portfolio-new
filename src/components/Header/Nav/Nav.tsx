@@ -1,12 +1,12 @@
 import React from "react";
-import { NavStyled } from "./Nav.style";
+import { NavStyle } from "./Nav.style";
 
 type NavProps = {
   children: React.ReactNode;
 };
 
 export const Nav = ({ children }: NavProps) => {
-  return <NavStyled>{children}</NavStyled>;
+  return <NavStyle>{children}</NavStyle>;
 };
 
 export default Nav;
