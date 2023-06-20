@@ -1,8 +1,8 @@
-import React from "react";
+import { ReactNode } from "react";
 import { NavStyle } from "./Nav.style";
 
 type NavProps = {
-  children: React.ReactNode;
+  children: ReactNode;
 };
 
 export const Nav = ({ children }: NavProps) => {

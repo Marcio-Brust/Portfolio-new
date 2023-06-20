@@ -1,5 +1,6 @@
 import { VscMenu } from "react-icons/vsc";
 import { ButtonStyle } from "./Button.style";
+import { useState } from "react";
 
 type ButtonProps = {
   text: string;

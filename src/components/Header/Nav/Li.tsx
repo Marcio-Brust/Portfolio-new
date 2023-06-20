@@ -1,8 +1,8 @@
-import React from "react";
+import { ReactNode } from "react";
 import { LiStyled } from "./Nav.style";
 
 type LiProps = {
-  children: React.ReactNode;
+  children: ReactNode;
 };
 
 export const Li = ({ children }: LiProps) => {
