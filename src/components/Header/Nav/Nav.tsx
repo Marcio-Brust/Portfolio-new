@@ -6,7 +6,6 @@ import useMedia from "../../../Hooks/useMedia";
 type NavProps = {
   children: ReactNode;
   style?: React.CSSProperties | undefined;
-  ["aria-expanded"]?: boolean | undefined;
 };
 
 export const Nav = ({ children }: NavProps) => {
