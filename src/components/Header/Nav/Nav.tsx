@@ -14,6 +14,7 @@ export const Nav = ({ children }: NavProps) => {
   const { isVisible } = useContext(MenuContext);
 
   return (
+    //@ts-ignore
     <NavStyle
       style={{
         display: !mobile ? "flex" : mobile && !isVisible ? "none" : "block",

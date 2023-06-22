@@ -9,12 +9,15 @@ export const Presentation = () => {
     <PresentationStyle style={{ justifyItems: mobile ? "center" : "start" }}>
       <Title
         text="Desenvolvedor"
-        style={{ fontSize: mobile ? theme.size.h1.l : theme.size.h1.xl }}
+        style={{
+          fontSize: mobile ? theme.size.h1.m : theme.size.h1.xl,
+          marginLeft: mobile ? "10px" : "-2px",
+        }}
       />
       <Title
         style={{
           color: theme.colors.primary,
-          fontSize: mobile ? theme.size.h1.s : theme.size.h1.m,
+          fontSize: mobile ? theme.size.h1.xs : theme.size.h1.m,
           fontWeight: "700",
         }}
         text="Olá, sou Márcio Brust "
@@ -22,11 +25,11 @@ export const Presentation = () => {
         <p
           style={{
             color: theme.colorsLetter.secundary,
-            fontSize: mobile ? theme.size.p.l : theme.size.p.xl,
+            fontSize: mobile ? theme.size.p.m : theme.size.p.xl,
             fontWeight: "400",
           }}
         >
-          Aqui irar saber o que sei fazer como <br />{" "}
+          Saiba oque sei fazer como <br />{" "}
           <b
             style={{
               color: theme.colorsLetter.primary,
@@ -36,7 +39,7 @@ export const Presentation = () => {
           </b>
           ,
           <br />
-          Desça e veja mais sobre mim.
+          Desça e confira.
         </p>
       </Title>
     </PresentationStyle>

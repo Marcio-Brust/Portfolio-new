@@ -18,6 +18,7 @@ export const NavStyle = styled.nav`
       border-radius: 5px;
       text-align: center;
       padding-top: 100px;
+      padding-bottom: 30px;
       animation: showMenu 0.3s forwards;
     `}
   ${(prop) =>

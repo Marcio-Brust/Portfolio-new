@@ -16,6 +16,7 @@ export const ButtonMobile = ({ text }: ButtonProps) => {
   return (
     <ButtonStyle
       style={{ display: mobile ? "flex" : "none" }}
+      //@ts-ignore
       onClick={handleClick}
     >
       {text}

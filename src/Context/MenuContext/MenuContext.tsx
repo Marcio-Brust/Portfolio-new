@@ -5,7 +5,7 @@ import useMedia from "../../Hooks/useMedia";
 
 type MenuContextTypes = {
   isVisible: boolean;
-  handleClick: (newState: boolean) => void;
+  handleClick: (newState: MouseEvent) => void;
 };
 
 const InitialValue = {
