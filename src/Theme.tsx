@@ -1,18 +1,29 @@
 export const theme = {
   colors: {
-    primary: "#222",
-    secundary: "#888",
+    primary: "#8046da",
+    secundary: "#9250F9",
+  },
+  colorsLetter: {
+    primary: "#40236d",
+    secundary: "#222",
   },
   size: {
     p: {
-      xs: "8px",
-      s: "10px",
-      m: "16px",
-      l: "22px",
-      xl: "32px",
+      xs: "0.6rem",
+      s: "0.9rem",
+      m: "1.5rem",
+      l: "1.8rem",
+      xl: "2.2rem",
+    },
+    h1: {
+      xs: "1.6rem",
+      s: "2rem",
+      m: "2.4rem",
+      l: "3.6rem",
+      xl: "4rem",
     },
   },
   fontFamily: {
-    primary: "monospace",
+    primary: "'Teko', sans-serif;",
   },
 };

@@ -1,21 +1,20 @@
-import { VscMenu } from "react-icons/vsc";
+import { VscMenu, VscChromeClose } from "react-icons/vsc";
 import { ButtonStyle } from "./Button.style";
-import { useState } from "react";
+import { useContext, MouseEventHandler } from "react";
+import { MenuContext } from "../../../Context/MenuContext/MenuContext";
 
 type ButtonProps = {
   text: string;
-  onClick: React.MouseEventHandler<HTMLButtonElement> | undefined;
+  onClick?: MouseEventHandler<HTMLButtonElement>;
 };
 
 export const ButtonMobile = ({ text }: ButtonProps) => {
-  function handleMenu() {
-    console.log("oi");
-  }
+  const { handleClick, isVisible } = useContext(MenuContext);
 
   return (
-    <ButtonStyle onClick={handleMenu}>
+    <ButtonStyle onClick={handleClick}>
       {text}
-      <VscMenu />
+      {isVisible ? <VscChromeClose /> : <VscMenu />}
     </ButtonStyle>
   );
 };

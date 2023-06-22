@@ -8,5 +8,6 @@ export const ButtonStyle = styled.button`
   border: none;
   background: none;
   cursor: pointer;
-  font-size: ${({ theme }) => theme.size.p.l};
+  font-size: ${({ theme }) => theme.size.p.m};
+  font-family: ${({ theme }) => theme.fontFamily.primary};
 `;

@@ -9,8 +9,16 @@ const Header = () => {
   return (
     <MenuContextProvider>
       <HeaderStyle>
-        <h1>Dev</h1>
-
+        <h1
+          style={{
+            color: "#40236d",
+            fontFamily: "Teko, sans-serif",
+            marginLeft: "5px",
+          }}
+        >
+          MwB
+        </h1>
+        <ButtonMobile text="Menu" />
         <Nav
           children={
             <>
@@ -27,7 +35,6 @@ const Header = () => {
               <Li>
                 <Link href="#contato" text="Contato" />
               </Li>
-              <ButtonMobile text="Menu" onClick={undefined} />
             </>
           }
         />
