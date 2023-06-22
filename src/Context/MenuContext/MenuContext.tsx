@@ -1,6 +1,7 @@
 import { ReactNode, useState } from "react";
 
 import { createContext } from "react";
+import useMedia from "../../Hooks/useMedia";
 
 type MenuContextTypes = {
   isVisible: boolean;
@@ -26,7 +27,6 @@ export const MenuContextProvider = ({ children }: MenuProps) => {
   function handleClick() {
     setIsVisible(!isVisible);
   }
-  console.log(isVisible);
 
   return (
     <MenuContext.Provider value={{ isVisible, handleClick }}>

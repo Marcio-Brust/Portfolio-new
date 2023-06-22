@@ -5,6 +5,8 @@ type LinkPorps = {
   text: string;
 };
 
+
+
 export const Link = ({ text, href }: LinkPorps) => {
   return <LinkStyle href={href}>{text}</LinkStyle>;
 };

@@ -6,7 +6,7 @@ export const LinkStyle = styled.a`
   color: initial;
   padding: 20px 30px;
 
-  /*   &:hover {
+  &:hover {
     background: ${({ theme }) => theme.colors.secundary};
-  } */
+  }
 `;

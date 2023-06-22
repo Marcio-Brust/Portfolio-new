@@ -6,8 +6,11 @@ export const ButtonStyle = styled.button`
   align-items: center;
   gap: 5px;
   border: none;
-  background: none;
+  margin-right: 20px;
+  border-radius: 5px;
+  background: ${({ theme }) => theme.colors.secundary};
   cursor: pointer;
   font-size: ${({ theme }) => theme.size.p.m};
   font-family: ${({ theme }) => theme.fontFamily.primary};
+  z-index: 100;
 `;
