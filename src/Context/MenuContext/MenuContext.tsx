@@ -1,4 +1,4 @@
-import { ReactNode, useState } from "react";
+import { ReactNode, useState, useEffect } from "react";
 
 import { createContext } from "react";
 import useMedia from "../../Hooks/useMedia";
@@ -27,6 +27,12 @@ export const MenuContextProvider = ({ children }: MenuProps) => {
   function handleClick() {
     setIsVisible(!isVisible);
   }
+
+  const mobile = useMedia("(max-width: 50rem)");
+
+  useEffect(() => {
+    setIsVisible(false);
+  }, [mobile]);
 
   return (
     <MenuContext.Provider value={{ isVisible, handleClick }}>

@@ -6,7 +6,6 @@ export const ButtonStyle = styled.button`
   align-items: center;
   gap: 5px;
   border: none;
-  margin-right: 20px;
   border-radius: 5px;
   background: ${({ theme }) => theme.colors.secundary};
   cursor: pointer;

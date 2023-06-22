@@ -6,7 +6,7 @@ import useMedia from "../../../Hooks/useMedia";
 
 type ButtonProps = {
   text: string;
-  onClick?: MouseEventHandler<HTMLButtonElement>;
+  onClick?: MouseEventHandler<HTMLButtonElement> | undefined;
 };
 
 export const ButtonMobile = ({ text }: ButtonProps) => {

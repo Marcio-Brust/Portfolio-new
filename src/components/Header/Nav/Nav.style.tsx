@@ -17,19 +17,22 @@ export const NavStyle = styled.nav`
       right: 0;
       border-radius: 5px;
       text-align: center;
-      padding-top: 70px;
+      padding-top: 100px;
       animation: showMenu 0.3s forwards;
     `}
-
   ${(prop) =>
     prop["aria-expanded"] &&
     css`
       @keyframes showMenu {
         from {
           margin-right: -80px;
+          opacity: 0;
+        }
+        to {
+          opacity: 1;
         }
       }
-    `}
+    `};
 `;
 
 export const LiStyled = styled.li`

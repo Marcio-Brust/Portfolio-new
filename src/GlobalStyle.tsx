@@ -10,4 +10,8 @@ body{
     padding:0;
     box-sizing: border-box;
  }
+ img{
+    display: block;
+    width: 100%;
+ }
 `;

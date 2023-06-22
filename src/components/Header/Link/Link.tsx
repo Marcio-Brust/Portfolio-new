@@ -1,3 +1,5 @@
+import { useContext } from "react";
+import { MenuContext } from "../../../Context/MenuContext/MenuContext";
 import { LinkStyle } from "./Link.style";
 
 type LinkPorps = {
@@ -5,8 +7,12 @@ type LinkPorps = {
   text: string;
 };
 
-
-
 export const Link = ({ text, href }: LinkPorps) => {
-  return <LinkStyle href={href}>{text}</LinkStyle>;
+  const { isVisible } = useContext(MenuContext);
+
+  return (
+    <LinkStyle aria-expanded={isVisible} href={href}>
+      {text}
+    </LinkStyle>
+  );
 };

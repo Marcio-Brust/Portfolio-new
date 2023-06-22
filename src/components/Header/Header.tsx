@@ -13,7 +13,6 @@ const Header = () => {
           style={{
             color: "#40236d",
             fontFamily: "Teko, sans-serif",
-            marginLeft: "5px",
           }}
         >
           MwB
