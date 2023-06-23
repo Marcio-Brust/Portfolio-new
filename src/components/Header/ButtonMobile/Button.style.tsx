@@ -7,7 +7,7 @@ export const ButtonStyle = styled.button`
   gap: 5px;
   border: none;
   border-radius: 5px;
-  background: ${({ theme }) => theme.colors.secundary};
+  background: ${({ theme }) => theme.colors.primary};
   cursor: pointer;
   font-size: ${({ theme }) => theme.size.p.m};
   font-family: ${({ theme }) => theme.fontFamily.primary};

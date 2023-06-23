@@ -25,12 +25,9 @@ const Header = () => {
                 <Link href="#home" text="Home" />
               </Li>
               <Li>
-                <Link href="#sobre" text="Sobre" />
+                <Link href="#cursos" text="Cursos" />
               </Li>
-              <Link href="#cursos" text="Cursos" />
-              <Li>
-                <Link href="#projetos" text="Projetos" />
-              </Li>
+              <Link href="#projetos" text="Projetos" />
               <Li>
                 <Link href="#contato" text="Contato" />
               </Li>

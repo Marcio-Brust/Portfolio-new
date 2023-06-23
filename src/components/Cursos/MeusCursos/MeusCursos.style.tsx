@@ -1,0 +1,18 @@
+import { styled } from "styled-components";
+
+export const MeusCurosStyle = styled.div`
+  text-align: start;
+  background: #e1e1e1;
+  border-radius: 5px;
+  width: 350px;
+  padding: 20px;
+  justify-self: center;
+  margin-top: 10px;
+  color: ${({ theme }) => theme.colorsLetter.secundary};
+  font-size: ${({ theme }) => theme.size.p.m};
+`;
+
+export const CursosContainer = styled.div`
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+`;
