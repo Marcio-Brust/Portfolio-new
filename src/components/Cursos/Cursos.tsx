@@ -28,27 +28,69 @@ export const Cursos = ({ id }: CursosProps) => {
       >
         <MeusCursos>
           <Title text="Origamid" style={{ fontSize: theme.size.h1.s }} />
-          <p>Nome: JavaScript Completo ES6</p>
+          <p
+            style={{
+              fontFamily: theme.fontFamily.primary,
+              color: theme.colorsLetter.secundary,
+            }}
+          >
+            Nome: JavaScript Completo ES6
+          </p>
         </MeusCursos>
         <MeusCursos>
           <Title text="Origamid" style={{ fontSize: theme.size.h1.s }} />
-          <p>Nome: Reactjs Completo</p>
+          <p
+            style={{
+              fontFamily: theme.fontFamily.primary,
+              color: theme.colorsLetter.secundary,
+            }}
+          >
+            Nome: Reactjs Completo
+          </p>
         </MeusCursos>
         <MeusCursos>
           <Title text="Origamid" style={{ fontSize: theme.size.h1.s }} />
-          <p>Nome: TypeScript Para Iniciantes</p>
+          <p
+            style={{
+              fontFamily: theme.fontFamily.primary,
+              color: theme.colorsLetter.secundary,
+            }}
+          >
+            Nome: TypeScript Para Iniciantes
+          </p>
         </MeusCursos>
         <MeusCursos>
           <Title text="Origamid" style={{ fontSize: theme.size.h1.s }} />
-          <p>Nome: HTML5 E CSS Completo</p>
+          <p
+            style={{
+              fontFamily: theme.fontFamily.primary,
+              color: theme.colorsLetter.secundary,
+            }}
+          >
+            Nome: HTML5 E CSS Completo
+          </p>
         </MeusCursos>
         <MeusCursos>
           <Title text="Udemy" style={{ fontSize: theme.size.h1.s }} />
-          <p>Nome: Nestjs </p>
+          <p
+            style={{
+              fontFamily: theme.fontFamily.primary,
+              color: theme.colorsLetter.secundary,
+            }}
+          >
+            Nome: Nestjs{" "}
+          </p>
         </MeusCursos>
         <MeusCursos>
           <Title text="Udemy" style={{ fontSize: theme.size.h1.s }} />
-          <p>Nome: Desenvolverdor Moderno</p>
+          <p
+            style={{
+              fontFamily: theme.fontFamily.primary,
+              color: theme.colorsLetter.secundary,
+            }}
+          >
+            Nome: Web Moderno Completo
+          </p>
         </MeusCursos>
       </CursosContainer>
     </CursosStyle>
