@@ -3,6 +3,7 @@ import { styled } from "styled-components";
 export const MeusCurosStyle = styled.div`
   text-align: start;
   border-radius: 5px;
+  background:#f6f6f6;
   width: 350px;
   padding: 20px;
   justify-self: center;

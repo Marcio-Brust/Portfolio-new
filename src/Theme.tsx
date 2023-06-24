@@ -24,6 +24,6 @@ export const theme = {
     },
   },
   fontFamily: {
-    primary: "'Teko', sans-serif;",
+    primary: "'Teko', sans-serif",
   },
 };
